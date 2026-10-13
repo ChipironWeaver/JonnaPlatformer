@@ -1,13 +1,15 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class HinoDeath : MonoBehaviour
 {
-    [SerializeField] private float yPositionDeath;
+    [SerializeField] private float _yPositionDeath;
+    [SerializeField] private int _value;
     void Update()
     {
-        if(transform.position.y < yPositionDeath)
+        if(transform.position.y < _yPositionDeath)
         {
-            HinoCounter.Instance.AddHinoCount(1);
+            HinoCounter.Instance.AddHinoCount(_value);
             Destroy(transform.parent.gameObject);
         }
     }

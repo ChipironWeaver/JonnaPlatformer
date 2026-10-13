@@ -613,7 +613,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92372c4a3579e3b44ba6a1a3579166ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  yPositionDeath: -20
+  _yPositionDeath: -20
+  _value: 1
 --- !u!1 &4392820847048759057
 GameObject:
   m_ObjectHideFlags: 0
