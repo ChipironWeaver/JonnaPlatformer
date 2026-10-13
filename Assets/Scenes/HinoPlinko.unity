@@ -1398,7 +1398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _progressBar: {fileID: 1114279345}
   _pointStep: 10
-  uiCustomLetterManager: {fileID: 42516146}
+  _pointRenderer: {fileID: 42516146}
 --- !u!4 &983159277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3304026705064261928, guid: 4e78e13beab08e14aaa92872ec4a21c4, type: 3}
