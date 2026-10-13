@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
 using UnityEngine.U2D.Animation;
 using Vector2 = UnityEngine.Vector2;
+using Vector3 = UnityEngine.Vector3;
 
 public class PlayerController : MonoBehaviour
 {
@@ -55,6 +56,11 @@ public class PlayerController : MonoBehaviour
 
     public void FixedUpdate()
     {
+        if (transform.position.y < -20f)
+        {
+            transform.position = Vector3.zero;
+            
+        }
         isGrounded = IsGrounded();
 
         _rb.linearVelocityX = _moveInput.x * _moveSpeed;
