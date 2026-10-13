@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "name": "BOOM",
+    "maps": [
+        {
+            "name": "EggMAn",
+            "id": "6cea63db-413c-49f4-bec9-d28be60ede3c",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "24a449a1-66eb-4aba-af29-d6894987107d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3baf75c6-ad78-4b25-976d-4dc3242f34b4",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
