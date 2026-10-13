@@ -4,30 +4,30 @@ using UnityEngine.InputSystem;
 
 public class EggManManager : MonoBehaviour
 {
-    [SerializeField] private List<Transform> _eggMans;
+    [SerializeField] private List<EggManYeeter> _eggMans;
     [SerializeField] private float _requiredDistance;
     [SerializeField] private Camera _camera;
 
-    private Transform followerTarget;
+    private EggManYeeter followerTarget;
 
     public void Update()
     {
         if (followerTarget)
         {
             Vector2 mousePosition = _camera.ScreenToWorldPoint(Mouse.current.position.value);
-            followerTarget.position = mousePosition;
+            followerTarget.transform.position = mousePosition;
         }
     }
     
-    public Transform GetEggMan(bool bypassDistance = false)
+    public EggManYeeter GetEggMan(bool bypassDistance = false)
     {
         Vector2 mousePosition = _camera.ScreenToWorldPoint(Mouse.current.position.value);
         
         float currentClosestEggManDistance = float.MaxValue;
-        Transform closestEggMan = null;
-        foreach (Transform eggMan in _eggMans)
+        EggManYeeter closestEggMan = null;
+        foreach (EggManYeeter eggMan in _eggMans)
         {
-            float distance = Vector2.Distance(eggMan.position, mousePosition);
+            float distance = Vector2.Distance(eggMan.transform.position, mousePosition);
             if (distance < currentClosestEggManDistance)
             {
                 currentClosestEggManDistance = distance;
@@ -38,20 +38,25 @@ public class EggManManager : MonoBehaviour
         if (!closestEggMan) return null;
 
         if (currentClosestEggManDistance > _requiredDistance && !bypassDistance) return null;
-        print(closestEggMan.gameObject.name);
         return closestEggMan;
     }
 
     public void ClickPerformed()
     {
-        Transform eggMan = GetEggMan();
-        if(eggMan) followerTarget = eggMan;
+        EggManYeeter eggMan = GetEggMan();
+        if(eggMan)
+        {
+            if (followerTarget) followerTarget.SetActive(false);
+            followerTarget = eggMan;
+            followerTarget.SetActive(true);
+        }
     }
     
     public void OnClick(InputAction.CallbackContext context)
     {
         if(context.canceled)
         {
+            if (followerTarget) followerTarget.SetActive(false);
             followerTarget = null;
         }
         else if (context.performed)

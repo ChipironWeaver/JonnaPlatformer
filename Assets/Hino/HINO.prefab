@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 697440943267185373}
   m_Layer: 0
   m_Name: bone_3
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35916674891312629}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.0062004034, w: 0.9999808}
-  m_LocalPosition: {x: 0.6836257, y: -0.0000005455341, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.006205207, w: 0.99998075}
+  m_LocalPosition: {x: 0.6836257, y: -0.00000059099347, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -115,7 +115,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6836255, y: -0.00000056065613}
+  m_ConnectedAnchor: {x: 0.6836257, y: -0.0000004433095}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 2699230141565804610}
   m_Layer: 0
   m_Name: bone_9
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,8 +152,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1290677175921443968}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.025342457, w: 0.9996788}
-  m_LocalPosition: {x: 0.548928, y: -0.00000011229171, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.02534242, w: 0.9996789}
+  m_LocalPosition: {x: 0.548928, y: -0.000000118864584, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -239,7 +239,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.54892814, y: -0.00000009592618}
+  m_ConnectedAnchor: {x: 0.5489279, y: -0.00000012107188}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 5211773050804487603}
   m_Layer: 0
   m_Name: bone_2
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,7 +277,7 @@ Transform:
   m_GameObject: {fileID: 2052212645508507294}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.015073584, w: 0.9998864}
-  m_LocalPosition: {x: 0.6692531, y: 0.00000002876674, z: 0}
+  m_LocalPosition: {x: 0.6692532, y: -0.000000014431181, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -366,7 +366,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.66925263, y: 0.00000025890762}
+  m_ConnectedAnchor: {x: 0.66925305, y: 0.000000061467276}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 827809138750625974}
   m_Layer: 0
   m_Name: bone_12
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -403,8 +403,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2167006452767306948}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.0000025322172, w: 1}
-  m_LocalPosition: {x: 1.0029618, y: -0.00000490104, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0000021854023, w: 1}
+  m_LocalPosition: {x: 1.0029625, y: 0.0000044054364, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -490,7 +490,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 1.0029614, y: -0.0000046424093}
+  m_ConnectedAnchor: {x: 1.002962, y: 0.0000043846658}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 437377743501930966}
   m_Layer: 0
   m_Name: bone_1
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -628,7 +628,7 @@ GameObject:
   - component: {fileID: 3306120703777384106}
   m_Layer: 0
   m_Name: bone_4
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -729,7 +729,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.62831146, y: 0.654492}
+  m_ConnectedAnchor: {x: 0.6283113, y: 0.6544922}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -753,7 +753,7 @@ GameObject:
   - component: {fileID: 267649132182037818}
   m_Layer: 0
   m_Name: bone_10
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -766,7 +766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4806649664950562599}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0.9996378, w: 0.026915831}
+  m_LocalRotation: {x: 0, y: -0, z: 0.9996377, w: 0.026915831}
   m_LocalPosition: {x: 0.04671941, y: -0.4066411, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -854,7 +854,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.046719287, y: -0.40664095}
+  m_ConnectedAnchor: {x: 0.046719406, y: -0.406641}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -878,7 +878,7 @@ GameObject:
   - component: {fileID: 2950747478533385493}
   m_Layer: 0
   m_Name: bone_11
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -891,8 +891,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7615118759532971109}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.015127826, w: 0.9998856}
-  m_LocalPosition: {x: 0.54886025, y: 0.00000006845764, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.015127825, w: 0.9998856}
+  m_LocalPosition: {x: 0.54886043, y: -0.000000016703257, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -978,7 +978,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5488601, y: 0.00000023934976}
+  m_ConnectedAnchor: {x: 0.54886025, y: 0.00000012014058}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1002,7 +1002,7 @@ GameObject:
   - component: {fileID: 7560719158421774775}
   m_Layer: 0
   m_Name: bone_5
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1015,8 +1015,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7791413567460121836}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.15142813, w: 0.9884683}
-  m_LocalPosition: {x: 0.5299611, y: 0.000000118910265, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.15142815, w: 0.9884683}
+  m_LocalPosition: {x: 0.5299611, y: 0.000000037414992, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1102,7 +1102,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.52996117, y: 0.00000014901163}
+  m_ConnectedAnchor: {x: 0.52996135, y: 0.00000014901163}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1252,7 +1252,7 @@ GameObject:
   - component: {fileID: 1356857954731557036}
   m_Layer: 0
   m_Name: bone_8
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1353,7 +1353,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.09693554, y: 0.38023117}
+  m_ConnectedAnchor: {x: 0.09693601, y: 0.38023102}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1377,7 +1377,7 @@ GameObject:
   - component: {fileID: 1421862457444520791}
   m_Layer: 0
   m_Name: bone_7
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1390,8 +1390,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8883278627024877655}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.014193984, w: 0.99989927}
-  m_LocalPosition: {x: 0.52993774, y: 0.00000007415656, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.014194259, w: 0.9998993}
+  m_LocalPosition: {x: 0.5299372, y: 0.00000017661499, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1477,7 +1477,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.52993774, y: 0.00000035762787}
+  m_ConnectedAnchor: {x: 0.5299372, y: 0.00000020861619}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
@@ -1501,7 +1501,7 @@ GameObject:
   - component: {fileID: 1681333005622539629}
   m_Layer: 0
   m_Name: bone_6
-  m_TagString: Untagged
+  m_TagString: Hino
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1514,7 +1514,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9032956090422474879}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0.9486096, w: 0.31644878}
+  m_LocalRotation: {x: 0, y: -0, z: -0.9486097, w: 0.31644857}
   m_LocalPosition: {x: 0.61796796, y: -0.7375572, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1602,7 +1602,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.61796796, y: -0.73755723}
+  m_ConnectedAnchor: {x: 0.61796814, y: -0.7375571}
   m_UseConnectedAnchor: 1
   m_UseMotor: 0
   m_Motor:
